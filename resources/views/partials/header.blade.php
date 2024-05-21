@@ -16,8 +16,8 @@
             <a class="nav-link  {{Route::currentRouteName() == 'books.index' ? 'active' : ''}}"
               href="{{route('books.index')}}">Books</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Movies</a>
+          <li class="nav-item {{Route::currentRouteName() == 'movies.index' ? 'active' : ''}}">
+            <a class="nav-link" href="{{route('movies.index')}}">Movies</a>
           </li>
         </ul>
       </div>
