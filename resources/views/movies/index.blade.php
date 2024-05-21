@@ -3,7 +3,7 @@
 @section('title', 'Movies')
 
 @section('content')
-<main>
+<main class="bg-dark">
     <h1>All Movies</h1>
     <div class="container">
         <div class="row">

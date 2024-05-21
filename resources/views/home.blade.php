@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<main>
+<main class="bg-dark">
     <h1>Home page</h1>
 </main>
 
